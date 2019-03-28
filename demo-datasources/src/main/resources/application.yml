@@ -1,0 +1,80 @@
+spring:
+  datasource:
+    test1:
+      jdbcurl: jdbc:mysql://192.168.1.63:3306/mybatis?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+      username: root
+      password: root
+    test2:
+      jdbcurl: jdbc:mysql://192.168.1.63:3306/myself?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+      username: root
+      password: root
+#  redis:
+#    database: 1
+#    host: 192.168.1.21
+#    port: 9000
+#    password:
+#    jedis:
+#      pool:
+#        max-active: 1000
+#        max-wait: -1
+#        max-idle: 10
+#        min-idle: 3
+#    timeout: 5000
+
+#logging:
+#  config: classpath:log4j2.xml
+
+
+
+
+#  profiles:
+#    active: pro #引用
+#server:
+#  port: 7777
+#  servlet:
+#    context-path: /springboot
+
+
+
+#mysql:
+#  datasource:
+#    test1:
+#      jdbcurl: jdbc:mysql://192.168.1.63:3306/mybatis?useUnicode=true&characterEncoding=utf-8
+#      username: root
+#      password: root
+#    test2:
+#      jdbcurl: jdbc:mysql://192.168.1.63:3306/myself?useUnicode=true&characterEncoding=utf-8
+#      username: root
+#      password: root
+
+
+
+
+#mysql:
+#  datasource:
+#    test1:
+#      jdbcurl: jdbc:oracle:thin:@//192.168.1.63:1521/orcl
+#      username: Oracle
+#      password: root
+#    test2:
+#      jdbcurl: jdbc:oracle:thin:@//192.168.1.63:1521/myself
+#      username: Myself
+#      password: root
+
+
+#需要说明的是config: classpath:/ehcache.xml可以不用写，因为默认就是这个路径
+#spring:
+#  cache:
+#    type: ehcache
+#    ehcache:
+#      config: classpath:/ehcache.xml
+
+
+
+#自定义参数
+#mqtt:
+#  serverURI: tcp://192.168.125.250:1939
+#  topic: springBootTopic
+
+
+
